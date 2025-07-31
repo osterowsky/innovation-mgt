@@ -3,7 +3,7 @@ import './App.css'
 import QuestionModel from './components/QuestionModel'
 
 const TOPICS = [
-  'Introduction',
+  'Principles of Marketing & Ethics',
 ]
 
 export default function App() {
