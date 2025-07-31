@@ -1,0 +1,39 @@
+button {
+  border-radius: 12px;
+  padding: 0.75em 1.5em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* space between each button */
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.counter {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #eee;
+  text-align: center;
+}
