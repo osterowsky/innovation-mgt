@@ -5,7 +5,8 @@ import QuestionModel from './components/QuestionModel'
 const TOPICS = [
   'Principles of Marketing & Ethics',
   'Marketing Strategy and Environment',
-  'Creating Customer Value, Satisfaction, Loyalty, and Engagement'
+  'Creating Customer Value, Satisfaction, Loyalty, and Engagement',
+  'Digital Marketing, Information Management and Market Research'
 ]
 
 export default function App() {
