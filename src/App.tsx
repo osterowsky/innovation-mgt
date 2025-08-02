@@ -7,7 +7,9 @@ const TOPICS = [
   'Marketing Strategy and Environment',
   'Creating Customer Value, Satisfaction, Loyalty, and Engagement',
   'Digital Marketing, Information Management and Market Research',
-  'Analysing Business and Consumer Markets'
+  'Analysing Business and Consumer Markets',
+  'Competition and Differentiation from Competitors',
+  'Segmenting, Targeting, and Positioning'
 ]
 
 export default function App() {
