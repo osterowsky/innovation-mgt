@@ -6,7 +6,8 @@ const TOPICS = [
   'Principles of Marketing & Ethics',
   'Marketing Strategy and Environment',
   'Creating Customer Value, Satisfaction, Loyalty, and Engagement',
-  'Digital Marketing, Information Management and Market Research'
+  'Digital Marketing, Information Management and Market Research',
+  'Analysing Business and Consumer Markets'
 ]
 
 export default function App() {
