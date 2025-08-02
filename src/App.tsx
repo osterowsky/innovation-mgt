@@ -9,7 +9,9 @@ const TOPICS = [
   'Digital Marketing, Information Management and Market Research',
   'Analysing Business and Consumer Markets',
   'Competition and Differentiation from Competitors',
-  'Segmenting, Targeting, and Positioning'
+  'Segmenting, Targeting, and Positioning',
+  'Products, Services and Brand Management',
+  'Pricing'
 ]
 
 export default function App() {
