@@ -11,7 +11,9 @@ const TOPICS = [
   'Competition and Differentiation from Competitors',
   'Segmenting, Targeting, and Positioning',
   'Products, Services and Brand Management',
-  'Pricing'
+  'Pricing',
+  'Marketing Communications',
+  'Marketing Channels'
 ]
 
 export default function App() {
