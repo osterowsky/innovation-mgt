@@ -13,7 +13,8 @@ const TOPICS = [
   'Products, Services and Brand Management',
   'Pricing',
   'Marketing Communications',
-  'Marketing Channels'
+  'Marketing Channels',
+  'People, Process, and Physical Evidence'
 ]
 
 export default function App() {
