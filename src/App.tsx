@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import QuestionModel from './components/QuestionModel'
 
-const TOPICS = [
+const TOPICS_MARKETING = [
   'Principles of Marketing & Ethics',
   'Marketing Strategy and Environment',
   'Creating Customer Value, Satisfaction, Loyalty, and Engagement',
@@ -15,6 +15,10 @@ const TOPICS = [
   'Marketing Communications',
   'Marketing Channels',
   'People, Process, and Physical Evidence'
+]
+
+const TOPICS_INNOVATION = [
+  'Introduction'
 ]
 
 export default function App() {
@@ -30,8 +34,20 @@ export default function App() {
         // Topic selector
         <div className="topic-selector">
           <h1>Choose a topic</h1>
+          <h2>Marketing</h2>
           <div className="topic-buttons">
-            {TOPICS.map(name => (
+            {TOPICS_MARKETING.map(name => (
+              <button
+                key={name}
+                onClick={() => setTopicName(name)}
+              >
+                {name}
+              </button>
+            ))}
+          </div>
+          <h2>Innovation Management</h2>
+          <div className="topic-buttons">
+            {TOPICS_INNOVATION.map(name => (
               <button
                 key={name}
                 onClick={() => setTopicName(name)}
