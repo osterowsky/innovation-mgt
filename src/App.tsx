@@ -22,6 +22,12 @@ const TOPICS_INNOVATION = [
   'Patterns in Innovative Activity'
 ]
 
+const TOPICS_GUEST_LECTURERS = [
+  'pro-beam',
+  'TÜV SÜD',
+  'Greenwashing'
+]
+
 export default function App() {
   const [topicName, setTopicName] = useState<string | null>(null)
 
@@ -49,6 +55,17 @@ export default function App() {
           <h2>Innovation Management</h2>
           <div className="topic-buttons">
             {TOPICS_INNOVATION.map(name => (
+              <button
+                key={name}
+                onClick={() => setTopicName(name)}
+              >
+                {name}
+              </button>
+            ))}
+          </div>
+          <h2>Guest Lectures</h2>
+          <div className="topic-buttons">
+            {TOPICS_GUEST_LECTURERS.map(name => (
               <button
                 key={name}
                 onClick={() => setTopicName(name)}
