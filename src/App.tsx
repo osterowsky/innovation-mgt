@@ -18,7 +18,8 @@ const TOPICS_MARKETING = [
 ]
 
 const TOPICS_INNOVATION = [
-  'Introduction'
+  'Introduction',
+  'Patterns in Innovative Activity'
 ]
 
 export default function App() {
