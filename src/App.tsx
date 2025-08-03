@@ -20,7 +20,8 @@ const TOPICS_MARKETING = [
 const TOPICS_INNOVATION = [
   'Introduction',
   'Patterns in Innovative Activity',
-  'Who innovates, and why'
+  'Who innovates, and why',
+  'Innovation strategy'
 ]
 
 const TOPICS_GUEST_LECTURERS = [
