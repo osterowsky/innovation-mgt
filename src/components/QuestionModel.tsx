@@ -41,7 +41,7 @@ export default function QuestionModel({ topicName, onDone }: Props) {
   useEffect(() => {
     async function loadSheet() {
       // Load the Excel file from the public directory
-      const res = await fetch(`${import.meta.env.BASE_URL}innovation_marketing_questions.xlsx`)
+      const res = await fetch(`${import.meta.env.BASE_URL}marketing_innovation_questions.xlsx`)
       const buf = await res.arrayBuffer()
       const wb  = XLSX.read(buf, { type: 'array' })
 
