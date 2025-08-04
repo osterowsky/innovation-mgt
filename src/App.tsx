@@ -21,7 +21,8 @@ const TOPICS_INNOVATION = [
   'Introduction',
   'Patterns in Innovative Activity',
   'Who innovates, and why',
-  'Innovation strategy'
+  'Innovation strategy',
+  'Profiting from Innovation'
 ]
 
 const TOPICS_GUEST_LECTURERS = [
