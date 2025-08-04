@@ -32,7 +32,6 @@ const TOPICS_INNOVATION = [
 ]
 
 const TOPICS_GUEST_LECTURERS = [
-  'pro-beam',
   'TÜV SÜD',
   'Greenwashing'
 ]
