@@ -22,7 +22,13 @@ const TOPICS_INNOVATION = [
   'Patterns in Innovative Activity',
   'Who innovates, and why',
   'Innovation strategy',
-  'Profiting from Innovation'
+  'Profiting from Innovation',
+  'Protecting Intellectual Property',
+  'Designing the Innovation Process',
+  'Organizing R&D and Innovation',
+  'Individuals in R&D',
+  'Selected tools and their applications',
+  'Digitalization, New Technologies and Business Models'
 ]
 
 const TOPICS_GUEST_LECTURERS = [
